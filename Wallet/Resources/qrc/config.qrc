@@ -1,6 +1,7 @@
 <RCC>
   <qresource prefix="/config">
     <!--file alias="default.json">../config-default.json // #TODO postponed </file-->
-    <file alias="test-default.json">../config-test-default.json</file>
+    <!--file alias="test-default.json">../config-test-default.json</file-->
+    <file alias="testnet3-default.json">../config-testnet3.json</file>
   </qresource>
 </RCC>

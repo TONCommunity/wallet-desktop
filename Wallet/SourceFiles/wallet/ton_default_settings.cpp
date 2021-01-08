@@ -15,11 +15,11 @@ namespace Wallet {
 Ton::Settings GetDefaultSettings() {
 	auto result = Ton::Settings();
 
-	auto test = QFile(":/config/test-default.json");
+	auto test = QFile(":/config/testnet3-default.json");
 	test.open(QIODevice::ReadOnly);
 	result.test.config = test.readAll();
-	result.test.blockchainName = "testnet2";
-	result.test.configUrl = "https://ton.org/config-test.json";
+	result.test.blockchainName = "testnet3";
+	result.test.configUrl = "https://toncommunity.org/ton-lite-client-test3.config.json";
 
 	//auto main = QFile(":/config/default.json"); // #TODO postponed
 	//main.open(QIODevice::ReadOnly);
@@ -29,7 +29,7 @@ Ton::Settings GetDefaultSettings() {
 
 	result.useNetworkCallbacks = false;
 	result.useTestNetwork = true; // #TODO postponed
-	result.version = 2;
+	result.version = 1;
 	return result;
 }
 
