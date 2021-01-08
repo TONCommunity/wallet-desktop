@@ -1,3 +1,7 @@
+1.0.1 (08.01.21)
+
+- Adapt application for TONCommunity.org blockchain
+
 0.9.8 (30.04.20)
 
 - Copy wallet address to clipboard on click.
