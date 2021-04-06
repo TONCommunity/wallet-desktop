@@ -33,6 +33,9 @@ The source code is published under GPLv3 with OpenSSL exception, the license is 
 * [Xcode 10][xcode]
 * [GYP/CMake on GNU/Linux][cmake]
 
+## Default cinfig
+* dev can set the toncommunity-lite-client.config.json as the default config file
+
 [//]: # (LINKS)
 [gram_wallet]: https://wallet.ton.org
 [license]: LICENSE
