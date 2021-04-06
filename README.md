@@ -1,7 +1,5 @@
 # [Wallet][gram_wallet] (Desktop)
 
-This is the source code and build instructions for a TON Community Blockchain Wallet implementation for desktops.
-
 The source code is published under GPLv3 with OpenSSL exception, the license is available [here][license].
 
 ## Supported systems
